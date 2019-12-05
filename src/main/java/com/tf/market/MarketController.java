@@ -21,6 +21,11 @@ public class MarketController {
         return "success";
     }
     
+    @GetMapping("test2")
+    public String test2() {
+        return "success2";
+    }
+    
     @GetMapping("listGoods")
     public String listGoods() {
         String listGoodsUrl = svcUrlProperties.getGoods() + "listGoods";
