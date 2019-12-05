@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
  * @author swy
  * @date 2019/12/04
  */
-@RestController("market")
+@RestController
 public class MarketController {
     @Autowired
     private RestTemplate restTemplate;
